@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harini Thiruvaipati — Portfolio</title>
+<meta name="description" content="Portfolio of Harini Thiruvaipati — CS student building full-stack and AI projects.">
+<meta name="theme-color" content="#0a0a0a">
+<meta property="og:title" content="Harini Thiruvaipati — Portfolio">
+<meta property="og:description" content="CS student building full-stack and AI projects. Code. Learn. Repeat.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/img/avatar.svg" type="image/svg+xml">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div id="progress" aria-hidden="true"></div>
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+<!-- Nav (Bootstrap navbar) -->
+<header>
+<nav id="nav" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark" aria-label="Main navigation">
+  <div class="container-fluid">
+    <a class="navbar-brand nav-logo" href="#hero">HT_PORTFOLIO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav nav-links">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main id="main">
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+
+  <!-- Parallax shapes -->
+  <div class="parallax-shape" data-speed="0.3" style="top:20%; right:12%; width:180px; height:180px; border:1px solid rgba(200,245,66,0.08); transform:rotate(15deg);"></div>
+  <div class="parallax-shape" data-speed="0.5" style="top:55%; right:22%; width:60px; height:60px; background:rgba(200,245,66,0.04); border:1px solid rgba(200,245,66,0.1);"></div>
+  <div class="parallax-shape" data-speed="0.2" style="top:30%; right:35%; width:8px; height:8px; background:var(--accent); border-radius:50%;"></div>
+  <div class="parallax-shape" data-speed="0.4" style="top:70%; right:8%; width:3px; height:120px; background:rgba(127,245,196,0.15);"></div>
+  <div class="parallax-shape" data-speed="0.15" style="top:15%; left:5%; width:100px; height:100px; border:1px solid rgba(255,255,255,0.03);"></div>
+
+  <div style="position:relative; z-index:2;">
+    <div class="hero-tag">Open to opportunities — let's build something great</div>
+    <h1 class="hero-name">
+      Harini<br>
+      <span>Thiruvaipati</span>
+    </h1>
+    <p class="hero-sub">Code. Learn. Repeat.</p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View Work</a>
+      <a href="#contact" class="btn-ghost">Get in Touch</a>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    Scroll to explore
+  </div>
+  <div class="hero-number">01 / INTRO</div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about" aria-labelledby="about-h">
+  <div class="about-grid">
+    <div>
+      <div class="section-label reveal">About Me</div>
+      <h2 id="about-h" class="about-heading reveal reveal-delay-1">
+        CS Student<br>
+        with <em>big ideas</em>
+      </h2>
+      <p class="about-text reveal reveal-delay-2">
+        Hi! I'm Harini — a CS student who's spent the last couple of years building projects, breaking things, and learning fast. I work across full-stack development, machine learning, and whatever tech the problem demands.
+      </p>
+    </div>
+    <div class="about-visual reveal reveal-delay-2">
+      <div class="about-card">
+        <div class="about-stat">
+          <div class="stat-num" data-count="100" data-suffix="+">100+</div>
+          <div class="stat-label">Problems Solved</div>
+        </div>
+        <div class="about-stat">
+          <div class="stat-num" data-count="10" data-suffix="+">10+</div>
+          <div class="stat-label">Projects built</div>
+        </div>
+        <div class="about-stat">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">Curiosity &amp; drive</div>
+        </div>
+        <div class="about-card-deco"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SKILLS ── -->
+<section id="skills" aria-labelledby="skills-h">
+  <div class="skills-wrap">
+    <div class="skills-header">
+      <div>
+        <div class="section-label reveal">Expertise</div>
+        <h2 id="skills-h" class="skills-heading reveal reveal-delay-1">What I<br>Work With</h2>
+      </div>
+    </div>
+    <div class="skills-grid reveal reveal-delay-2">
+      <div class="skill-cell" style="grid-column: 1 / -1; background: var(--bg3); padding: 1rem 2rem;">
+        <div class="skill-cat" style="margin-bottom:0;">Languages</div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">Language</div>
+        <div class="skill-name">Python</div>
+        <div class="skill-detail">Data manipulation, scripting, backend logic &amp; automation.</div>
+        <div class="skill-bar-wrap" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="Python proficiency"><div class="skill-bar" data-width="88"></div></div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">Language</div>
+        <div class="skill-name">Java</div>
+        <div class="skill-detail">OOP, data structures, algorithms &amp; academic projects.</div>
+        <div class="skill-bar-wrap" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Java proficiency"><div class="skill-bar" data-width="80"></div></div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">Language</div>
+        <div class="skill-name">C++</div>
+        <div class="skill-detail">Systems programming, competitive coding &amp; performance-critical logic.</div>
+        <div class="skill-bar-wrap" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="C++ proficiency"><div class="skill-bar" data-width="75"></div></div>
+      </div>
+      <div class="skill-cell" style="grid-column: 1 / -1; background: var(--bg3); padding: 1rem 2rem;">
+        <div class="skill-cat" style="margin-bottom:0;">Web &amp; Frameworks</div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">Web</div>
+        <div class="skill-name">HTML / CSS / JS</div>
+        <div class="skill-detail">Responsive interfaces, interactive components &amp; modern layouts.</div>
+        <div class="skill-bar-wrap" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="HTML / CSS / JS proficiency"><div class="skill-bar" data-width="82"></div></div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">Framework</div>
+        <div class="skill-name">React</div>
+        <div class="skill-detail">Component-driven UIs, state management &amp; hooks.</div>
+        <div class="skill-bar-wrap" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="React proficiency"><div class="skill-bar" data-width="70"></div></div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">Database</div>
+        <div class="skill-name">SQL / MySQL</div>
+        <div class="skill-detail">Schema design, queries, joins &amp; relational data modeling.</div>
+        <div class="skill-bar-wrap" role="progressbar" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100" aria-label="SQL / MySQL proficiency"><div class="skill-bar" data-width="74"></div></div>
+      </div>
+      <div class="skill-cell" style="grid-column: 1 / -1; background: var(--bg3); padding: 1rem 2rem;">
+        <div class="skill-cat" style="margin-bottom:0;">Tools</div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">Tool</div>
+        <div class="skill-name">Git &amp; GitHub</div>
+        <div class="skill-detail">Version control, collaboration, branching &amp; pull requests.</div>
+        <div class="skill-bar-wrap" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Git &amp; GitHub proficiency"><div class="skill-bar" data-width="85"></div></div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">Tool</div>
+        <div class="skill-name">VS Code</div>
+        <div class="skill-detail">Primary code editor — extensions, debugging &amp; workspace setup.</div>
+        <div class="skill-bar-wrap" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="VS Code proficiency"><div class="skill-bar" data-width="90"></div></div>
+      </div>
+      <div class="skill-cell">
+        <div class="skill-cat">Tool</div>
+        <div class="skill-name">Postman</div>
+        <div class="skill-detail">API testing, request building &amp; endpoint debugging.</div>
+        <div class="skill-bar-wrap" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" aria-label="Postman proficiency"><div class="skill-bar" data-width="72"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="projects" aria-labelledby="projects-h">
+  <div class="projects-wrap">
+    <div class="projects-header">
+      <div class="section-label reveal">Selected Work</div>
+      <h2 id="projects-h" class="projects-heading reveal reveal-delay-1">Projects</h2>
+      <div class="filter-bar reveal reveal-delay-2" role="group" aria-label="Filter projects by category">
+        <button type="button" class="btn btn-filter active" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="btn btn-filter" data-filter="nlp" aria-pressed="false">NLP</button>
+        <button type="button" class="btn btn-filter" data-filter="ml" aria-pressed="false">ML / IoT</button>
+        <button type="button" class="btn btn-filter" data-filter="agent" aria-pressed="false">AI Agent</button>
+        <button type="button" class="btn btn-filter" data-filter="cv" aria-pressed="false">Computer Vision</button>
+      </div>
+      <p class="filter-count" id="filterCount" aria-live="polite"></p>
+    </div>
+    <div class="projects-list">
+      <article class="project-item reveal" data-category="nlp" data-project="0" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="project-num">01</div>
+        <div class="project-info">
+          <div class="project-title">AI Based Digital Clone</div>
+          <div class="project-desc">An AI-powered conversational clone that mimics personality and responses — built with natural language processing and generative AI techniques.</div>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">NLP</span>
+            <span class="tag">Generative AI</span>
+          </div>
+        </div>
+        <div class="project-arrow">↗</div>
+      </article>
+      <article class="project-item reveal reveal-delay-1" data-category="ml" data-project="1" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="project-num">02</div>
+        <div class="project-info">
+          <div class="project-title">Smart Home Energy Management System</div>
+          <div class="project-desc">An intelligent system that monitors, analyzes, and optimizes home energy consumption using real-time data and smart automation.</div>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">IoT</span>
+            <span class="tag">Machine Learning</span>
+          </div>
+        </div>
+        <div class="project-arrow">↗</div>
+      </article>
+      <article class="project-item reveal reveal-delay-2" data-category="nlp" data-project="2" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="project-num">03</div>
+        <div class="project-info">
+          <div class="project-title">AI Text Translator &amp; Summarization</div>
+          <div class="project-desc">A tool that translates text across multiple languages and generates concise summaries using transformer-based language models.</div>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Transformers</span>
+            <span class="tag">NLP</span>
+          </div>
+        </div>
+        <div class="project-arrow">↗</div>
+      </article>
+      <article class="project-item reveal reveal-delay-3" data-category="agent" data-project="3" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="project-num">04</div>
+        <div class="project-info">
+          <div class="project-title">Post Discharge AI Agent</div>
+          <div class="project-desc">An AI agent designed to assist patients post-discharge — providing reminders, answering health queries, and supporting recovery through intelligent automation.</div>
+          <div class="project-tags">
+            <span class="tag">AI Agent</span>
+            <span class="tag">Python</span>
+            <span class="tag">Healthcare</span>
+          </div>
+        </div>
+        <div class="project-arrow">↗</div>
+      </article>
+      <article class="project-item reveal" data-category="cv" data-project="4" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="project-num">05</div>
+        <div class="project-info">
+          <div class="project-title">Object Measuring &amp; Detection</div>
+          <div class="project-desc">A computer vision system that detects objects with YOLO and measures their real-world size using ArUco markers as a scale reference.</div>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">ArUco</span>
+            <span class="tag">YOLO</span>
+          </div>
+        </div>
+        <div class="project-arrow">↗</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ── EDUCATION ── -->
+<section id="education" aria-labelledby="edu-h">
+  <div class="edu-wrap">
+    <div class="section-label reveal">Education</div>
+    <h2 id="edu-h" class="edu-heading reveal reveal-delay-1">Where I<br>Study</h2>
+    <div class="row g-4 mt-2">
+      <div class="col-lg-8 reveal reveal-delay-2">
+        <div class="table-responsive">
+          <table class="table edu-table align-middle">
+            <caption class="visually-hidden">Educational qualifications</caption>
+            <thead><tr><th scope="col">Qualification</th><th scope="col">Institution</th><th scope="col">Board / University</th><th scope="col">Status</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">B.E. Computer Science &amp; Engineering</th><td>Stanley College of Engineering and Technology for Women (Autonomous), Hyderabad</td><td>Osmania University</td><td><span class="tag">Pursuing</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-lg-4 reveal reveal-delay-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h3 class="card-title h6">Core Coursework</h3>
+            <ol class="course-list">
+              <li>Cloud Computing</li>
+              <li>Compiler Design</li>
+              <li>Cryptography</li>
+              <li>Network Security</li>
+              <li>Operating Systems</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ACHIEVEMENTS / CERTIFICATIONS ── -->
+<section id="achievements" aria-labelledby="ach-h">
+  <div class="ach-wrap">
+    <div class="section-label reveal">Recognition</div>
+    <h2 id="ach-h" class="ach-heading reveal reveal-delay-1">Achievements &amp;<br>Certifications</h2>
+    <div id="achStatus" aria-live="polite">
+      <div class="d-flex align-items-center gap-2 text-secondary"><div class="spinner-border spinner-border-sm" role="status"></div><span>Loading achievements…</span></div>
+    </div>
+    <div class="row g-4 mt-1" id="achGrid"></div>
+    <noscript><p class="contact-sub">Enable JavaScript to see achievements loaded from <code>assets/data/achievements.json</code>.</p></noscript>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact" aria-labelledby="contact-h">
+  <div class="contact-wrap">
+    <div class="section-label reveal" style="justify-content:center;">Let's Connect</div>
+    <h2 id="contact-h" class="contact-big reveal reveal-delay-1">
+      Let's<br><span>Build</span><br>Together
+    </h2>
+    <p class="contact-sub reveal reveal-delay-2">
+      Open to internships, collaborations, and new opportunities. If you have an interesting project or role — let's talk.
+    </p>
+    <a href="mailto:harinithiruvaipati@gmail.com" class="contact-email-btn reveal reveal-delay-3">Send me an email</a>
+    <div class="contact-links reveal reveal-delay-4" style="margin-top:2.5rem;">
+      <a href="https://github.com/" class="contact-link" target="_blank" rel="noopener noreferrer"><span class="contact-link-dot"></span>GitHub</a>
+      <a href="https://linkedin.com/in/harini994" class="contact-link" target="_blank" rel="noopener noreferrer"><span class="contact-link-dot"></span>LinkedIn</a>
+      <a href="https://drive.google.com/file/d/1SjBau2A-LzWe38cGkmGI_uXOxXalUIWs/view?usp=sharing" class="contact-link" target="_blank" rel="noopener noreferrer"><span class="contact-link-dot"></span>Resume</a>
+    </div>
+
+    <!-- Contact form (Bootstrap forms + client-side validation) -->
+    <div class="contact-form-wrap reveal">
+      <h3 class="form-title">Or drop a message</h3>
+      <div id="formAlert" role="status" aria-live="polite"></div>
+      <form id="contactForm" novalidate>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label for="cName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="cName" name="name" autocomplete="name" placeholder="Your name" required aria-describedby="cNameErr">
+            <div class="invalid-feedback" id="cNameErr"></div>
+          </div>
+          <div class="col-md-6">
+            <label for="cEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="cEmail" name="email" autocomplete="email" placeholder="you@example.com" required aria-describedby="cEmailErr">
+            <div class="invalid-feedback" id="cEmailErr"></div>
+          </div>
+          <div class="col-12">
+            <label for="cSubject" class="form-label">Subject</label>
+            <select class="form-select" id="cSubject" name="subject" required aria-describedby="cSubjectErr">
+              <option value="">Choose a topic…</option>
+              <option>Internship opportunity</option>
+              <option>Project collaboration</option>
+              <option>General question</option>
+            </select>
+            <div class="invalid-feedback" id="cSubjectErr"></div>
+          </div>
+          <div class="col-12">
+            <label for="cMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="cMessage" name="message" rows="4" maxlength="500" placeholder="Write at least 10 characters…" required aria-describedby="cMessageErr cMessageCount"></textarea>
+            <div class="d-flex justify-content-between">
+              <div class="invalid-feedback" id="cMessageErr"></div>
+              <small class="char-count ms-auto" id="cMessageCount">0 / 500</small>
+            </div>
+          </div>
+          <div class="col-12 text-start">
+            <button type="submit" class="btn btn-accent">Send message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-copy">© 2025 Harini Thiruvaipati</div>
+  <div class="footer-tagline">Designed &amp; built with care</div>
+</footer>
+<button type="button" id="toTop" class="btn btn-accent to-top" aria-label="Back to top">↑</button>
+
+<!-- Project details modal (Bootstrap) -->
+<div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title h5" id="projectModalTitle"></h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p id="projectModalDesc" class="mb-3"></p>
+        <div class="small text-secondary mb-2">Tech stack</div>
+        <div class="project-tags" id="projectModalTags"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
